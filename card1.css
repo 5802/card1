@@ -31,30 +31,44 @@
     box-shadow: 0 0 20px black;
     transition:  1s all linear;
     transform: scale(1.3);
-    opacity: 0;
+    opacity: 0.6;
+    height: 43%;
 }
 .card:hover
 {
     box-shadow: 0 0 30px black;
-    transition:  1s all linear;
-    background-image: url(shi.jpg);
+    transition:  0.5s all ease;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: azure;
  
 }
 
 .text
 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center; 
-    margin-top: 110%;  
+    margin-top: 105%;  
     transition:  1s all linear;
+    padding: 10px;
 }
 .card:hover .text  
 {
-    margin-top: 65%;
+   
+    margin-top: 80%;
     transition:  1s all linear;
-    background-color: dimgray;
-    color:whitesmoke;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.text p
+{
+    opacity: 0;
+    color: #212121;
 
+}
+.card:hover p
+{
+    opacity: 1;
+    transition: 0.5s all ease;  
 }
